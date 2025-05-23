@@ -1,0 +1,16 @@
+{
+    "name": "GameCore.Models",
+    "rootNamespace": "",
+    "references": [
+        "GUID:2cf0076e119c74866be6e2316fb23602"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
