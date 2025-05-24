@@ -178,3 +178,14 @@ MonoBehaviour:
     - name: Default
       pathPrefix: Characters/Victoria
       guid: c4c0286ab713e4e51b292f0fa7642f6c
+  - Id: Backgrounds/ca4bcaab-1d98-481a-b2e2-bfd0653a99df
+    Resources:
+    - name: Location1
+      pathPrefix: Backgrounds/MainBackground
+      guid: 9ac7750ab32f04d68a4be28e37869915
+    - name: Location2
+      pathPrefix: Backgrounds/MainBackground
+      guid: 9c66a398d5f624427a8f1f15fac84270
+    - name: Location3
+      pathPrefix: Backgrounds/MainBackground
+      guid: 856f6643fa5994ad18e3a6dbd2c5c2e4

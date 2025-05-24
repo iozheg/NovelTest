@@ -1,3 +1,4 @@
+@back Location3.Default
 Player.Default: Вот ты где… Надеюсь, ты того стоишь.
 @hideChars
 @goto Location2.AfterQuest

@@ -1,3 +1,4 @@
+@back Location2
 Victoria.Default: Ты от Скарлет? Значит, она тебе рассказала. Странности начались после того, как пропал амулет хранителя.
 Player.Default: Ты знаешь, где он может быть?
 Victoria.Default: Не уверена. Но сначала — проверим, готов ли ты к поиску. Сыграем?
@@ -8,6 +9,8 @@ Victoria.Default: Я пометила его на карте. Но будь ос
 @goto Location3
 
 # AfterQuest
+@back Location2
 Player.Default: Виктории нет... Похоже, мне придется самому решить, кому доверить амулет. Скарлет... или Виктория? А может… оставить себе?
 @hideChars
+@hidePrinter
 @goto Location1.AfterQuest
