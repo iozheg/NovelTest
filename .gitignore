@@ -84,3 +84,8 @@ crashlytics-build.properties
 
 /Assets/Samples/
 /Assets/Samples.meta
+
+# Auto-generated Unity assets of transient nature.
+/Assets/NaninovelData/Transient*
+# Transient artifacts of the external tools.
+/Assets/NaninovelData/.nani/Transient*
