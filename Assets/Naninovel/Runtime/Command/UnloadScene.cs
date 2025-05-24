@@ -1,5 +1,6 @@
 // Copyright 2023 ReWaffle LLC. All rights reserved.
 
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
 namespace Naninovel.Commands
@@ -19,6 +20,7 @@ namespace Naninovel.Commands
 
         public override async UniTask ExecuteAsync (AsyncToken asyncToken = default)
         {
+            Debug.Log($"Unloading scene: {SceneName}");
             await SceneManager.UnloadSceneAsync(SceneName);
         }
     }

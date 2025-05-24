@@ -34,4 +34,6 @@ Scarlet.Default: Шепот, свет... Кто-то или что-то там �
     @endif
 @endif
 @hideUI QuestLogUI
+@hideChars
+@hidePrinter
 @stop
