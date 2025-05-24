@@ -1,0 +1,31 @@
+Scarlet.Default: О, ты новенький? Слушай, {PlayerName}, у меня к тебе дело. В старой башне что-то странное... Можешь проверить?
+Player.Default: Конечно, я проверю. Что именно там происходит?
+Scarlet.Default: Шепот, свет... Кто-то или что-то там есть. Сходи к Виктории, она знает больше.
+@hideChars
+@goto Location2
+
+# AfterQuest
+@char Victoria
+@char Scarlet
+@char Player
+Как поступить с амулетом хранителя? Виктория или Скарлет? Или оставить его себе?
+@choice "Отдать амулет Виктории" set:choice=1
+@choice "Отдать амулет Скарлет" set:choice=2
+@choice "Оставить амулет себе" set:choice=3
+@stop
+
+@if choice==1
+    Victoria.Default: Ты правда принес его? Спасибо, {PlayerName}. Я знала, что могу на тебя рассчитывать.
+    Scarlet.Default: Ты выбрал её? Интересно... Надеюсь, ты не пожалеешь.
+@else
+    @if choice==2
+        Scarlet.Default: Ты сделал правильный выбор. С ним я смогу защитить всех.
+        Victoria.Default: Так значит, ты ей отдал? Приятно знать, кому можно не доверять…
+    @else
+        @if choice==3
+            Victoria.Default: Ты решил оставить его? Это... разочаровывает, {PlayerName}.
+            Scarlet.Default: Ты правда думаешь, что справишься один? Глупо и эгоистично.
+        @endif
+    @endif
+@endif
+@stop

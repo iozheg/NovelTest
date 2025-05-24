@@ -1,0 +1,4 @@
+@set PlayerName="Player"
+@input PlayerName summary:"Choose your name." value:{PlayerName}
+@stop
+@goto Location1
