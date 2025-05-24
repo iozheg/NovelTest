@@ -17,3 +17,5 @@ MonoBehaviour:
     value: '""'
   - name: hasAmulet
     value: true
+  - name: QuestStep
+    value: -1

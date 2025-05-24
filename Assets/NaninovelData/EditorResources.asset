@@ -150,11 +150,11 @@ MonoBehaviour:
     - name: MapButton
       pathPrefix: UI
       guid: 8d1ad037e9323421a90fe683ba1e2e98
+    - name: QuestLogUI
+      pathPrefix: UI
+      guid: 7ef3aa393186b483883b67667c1b460b
   - Id: Scripts
     Resources:
-    - name: Map
-      pathPrefix: Scripts
-      guid: 2f4e22c459e4f4a7f96d37c728a42864
     - name: Start
       pathPrefix: Scripts
       guid: 86e83cba9f3b244fca598761479383e1
@@ -167,6 +167,9 @@ MonoBehaviour:
     - name: Location3
       pathPrefix: Scripts
       guid: 2aa77eacaf9c546d6af56262148d0686
+    - name: Map
+      pathPrefix: Scripts
+      guid: 2f4e22c459e4f4a7f96d37c728a42864
   - Id: CharacterAvatars
     Resources:
     - name: 

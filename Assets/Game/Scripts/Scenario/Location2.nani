@@ -2,15 +2,18 @@
 Victoria.Default: Ты от Скарлет? Значит, она тебе рассказала. Странности начались после того, как пропал амулет хранителя.
 Player.Default: Ты знаешь, где он может быть?
 Victoria.Default: Не уверена. Но сначала — проверим, готов ли ты к поиску. Сыграем?
+@set QuestStep=3
 Victoria.Default: Хм. Ты справился. Или почти... Неважно. В любом случае — амулет может быть в старом святилище.
 Player.Default: Как туда попасть?
 Victoria.Default: Я пометила его на карте. Но будь осторожен.
+@set QuestStep=4
 @hideChars
 @goto Location3
 
 # AfterQuest
 @back Location2
 Player.Default: Виктории нет... Похоже, мне придется самому решить, кому доверить амулет. Скарлет... или Виктория? А может… оставить себе?
+@set QuestStep=5
 @hideChars
 @hidePrinter
 @goto Location1.AfterQuest
