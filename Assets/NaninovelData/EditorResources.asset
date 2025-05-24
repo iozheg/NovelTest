@@ -144,3 +144,37 @@ MonoBehaviour:
     - name: ScriptNavigatorUI
       pathPrefix: UI
       guid: 735d6aa767879aa469134858c5b2f0a7
+  - Id: Scripts
+    Resources:
+    - name: Start
+      pathPrefix: Scripts
+      guid: 86e83cba9f3b244fca598761479383e1
+    - name: Location1
+      pathPrefix: Scripts
+      guid: 9d51170b63e3645b288be722e545aba9
+    - name: Location2
+      pathPrefix: Scripts
+      guid: f503d3dbd25774f2a9e0745bc3d31a10
+    - name: Location3
+      pathPrefix: Scripts
+      guid: 2aa77eacaf9c546d6af56262148d0686
+  - Id: CharacterAvatars
+    Resources:
+    - name: 
+      pathPrefix: CharacterAvatars
+      guid: 
+  - Id: Characters/eac920a2-5352-4a87-84ee-d2787e77253d
+    Resources:
+    - name: Default
+      pathPrefix: Characters/Player
+      guid: f05ae0030c1b1484eb812472a5e310b2
+  - Id: Characters/77ac63e0-0912-400c-acd9-dc124715b24a
+    Resources:
+    - name: Default
+      pathPrefix: Characters/Scarlet
+      guid: 9ee9672f337cb43b8a137d2da6cf6a04
+  - Id: Characters/55beb6c0-16bb-4bf8-b181-10c98c4fbc36
+    Resources:
+    - name: Default
+      pathPrefix: Characters/Victoria
+      guid: c4c0286ab713e4e51b292f0fa7642f6c
