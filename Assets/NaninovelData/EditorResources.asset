@@ -147,8 +147,14 @@ MonoBehaviour:
     - name: AmuletUI
       pathPrefix: UI
       guid: 9fc52b256ce7c4476ac6c6953b5c0788
+    - name: MapButton
+      pathPrefix: UI
+      guid: 8d1ad037e9323421a90fe683ba1e2e98
   - Id: Scripts
     Resources:
+    - name: Map
+      pathPrefix: Scripts
+      guid: 2f4e22c459e4f4a7f96d37c728a42864
     - name: Start
       pathPrefix: Scripts
       guid: 86e83cba9f3b244fca598761479383e1
@@ -192,3 +198,6 @@ MonoBehaviour:
     - name: Location3
       pathPrefix: Backgrounds/MainBackground
       guid: 856f6643fa5994ad18e3a6dbd2c5c2e4
+    - name: Map
+      pathPrefix: Backgrounds/MainBackground
+      guid: 50f62971f8037430792ae6331b42f445
