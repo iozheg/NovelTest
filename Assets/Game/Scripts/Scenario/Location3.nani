@@ -1,4 +1,5 @@
 @back Location3.Default
+@showUI AmuletUI
 Player.Default: Вот ты где… Надеюсь, ты того стоишь.
 @hideChars
-@goto Location2.AfterQuest
+@stop
