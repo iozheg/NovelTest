@@ -16,6 +16,6 @@ MonoBehaviour:
   - name: PlayerName
     value: '""'
   - name: hasAmulet
-    value: true
+    value: false
   - name: QuestStep
     value: -1

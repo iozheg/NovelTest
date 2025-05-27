@@ -298,6 +298,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scriptName: 
-  scriptText: '@goto Map'
+  scriptText: '@goto Map reset:*'
   playOnAwake: 0
   disableWaitInput: 0
